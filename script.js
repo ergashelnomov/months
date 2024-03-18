@@ -1,42 +1,43 @@
-let month = prompt(`oy raqamini kiriting`);
+let month = +prompt(`oy raqamini kiriting`);
 
 switch (month) {
-  case "1":
+  case 1:
     alert("Yanvar");
     break;
-  case "2":
+  case 2:
     alert("Fevral");
     break;
-  case "3":
+  case 3:
     alert("Mart");
     break;
-  case "4":
+  case 4:
     alert("Aprel");
     break;
-  case "5":
+  case 5:
     alert("May");
     break;
-  case "6":
+  case 6:
     alert("Iyun");
     break;
-  case "7":
+  case 7:
     alert("Iyul");
     break;
-  case "8":
+  case 8:
     alert("Avgust");
     break;
-  case "9":
+  case 9:
     alert("Sentyabr");
     break;
-  case "10":
+  case 10:
     alert("Oktyabr");
     break;
-  case "11":
+  case 11:
     alert("Noyabr");
     break;
-  case "12":
+  case 12:
     alert("Dekabr");
     break;
   default:
     alert(`bunday oy mavjud emas`);
+    break;
 }
